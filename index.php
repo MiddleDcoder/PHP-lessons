@@ -18,8 +18,32 @@
     // $name = "Jhun";
 
     // echo "Hello, " . $name;
-   
 
+    $people = array("Alice", "Bob", "JL");
+    print_r($people);
+
+    echo "<br>";
+    echo $people[2];
+
+    
+
+    foreach ($people as $person => $value) {
+        # code...
+        echo $person . ' ';
+    }
+
+    echo "<br>";
+
+    $numbers = array(5,3,7);
+    $sum = 0;
+
+
+    
+    foreach ($numbers as $number){
+        $sum = $sum + $number;
+    }
+
+    echo $sum;
     ?>
     </body>
 </html>
